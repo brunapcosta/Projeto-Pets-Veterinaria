@@ -81,3 +81,36 @@ p{
     color: #000000;
     cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+    header{
+        display: none;
+    }
+    .img-logo{
+        display: block;
+        margin: 149px 22px 24px 14px;
+        width: 354px;
+        height: 317px;
+    }
+    div{
+        margin: 0px 63px 133px 64px;
+    }
+    h1{
+        display: block;
+        margin-bottom: 7px;
+        font-size: 50px;
+        line-height: 61px;
+    }
+    h2{
+        margin-left: 15px;
+        margin-bottom: 17px;
+        font-size: 30px;
+        line-height: 37px;
+    }
+    p{
+        display: none;
+    }
+    .button-main{
+        margin-left: 15px;
+    }
+}
